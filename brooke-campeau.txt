@@ -1,42 +1,122 @@
 Completed codepen: https://codepen.io/brookecampeau/pen/JjYPjBM?editors=1100
 
- 1. What is Semantic HTML? 
+    1. What is Semantic HTML? 
+    A markup to to reinforce meaning of the data.
+
     2. What is HTML used for? 
+    To create electronic documents that are displayed on the internet.
+
     3. What is an attribute and where do we put it? 
+    An attribute controls an element's behavior. It goes inside the opening tag.
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+    H1 is a heading tag, the largest size. We can use it as many times as we want.
+
     5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
+    Nav and href
+
+    6. What do we put in the head of our HTML document?
+    Specific information about the webpage - title of the documnet, scripts or links to scripts, and CSS files.
+
     7. What is an id? 
+
+
     8. What elements can I add an id to? 
+
+
     9. How many times can I use the same id on a page? 
+    Just once. An ID 
+
+
     10. What is a class? 
+    A group of elements that are the same or similar.
+
     11. What elements can I add a class to? 
+    All elements
+
     12. How many times can I use the same class on a page? 
+    As many times as needed.
+
     13. How do I get my link to open in a new tab?
+    target="example"
+
     14. What is the alt attribute in the image tag used for? 
+    An alternate text for an image. If the image cannot be displayed the text will appear in its place.
+
     15. How do I reference an id?
+    With a # symbol. #example{
+
+    }
+
     16. What is the difference between a section and a div
+
+
     17. What is CSS used for? 
+    Cascading Style Sheets
+
     18. How to we select an element? Example - every h2 on the page
+    h2{
+
+    }
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class is used to identify more than one item; whereas, and id only identifies one. Example: <h1 id="example"> would only select h1. <p class="example"> can be placed on multiple paragraphs. 
+
     20. How do we select classes in CSS?
+
+
     21. How do we select a p element with a single class of “human””?
+
+
     22. What is a parent child selector? When would this be useful? 
+
+
     23. How do you select all links within a div with the class of sidebar?
+
+
     24. What is a pseudo selector?
+    Selects elements that are in a specifi state, the first element of their type.
+
     25. What do we use the change the spacing between lines?
+    line-spacing: 20px;
+
     26. What do we use to change the spacing between letters?
+    letter-spacing: 20px;
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase, text-transform: lowercase, text-transform: capitalize
+
     28. How do I add a 1px border around my div that is dotted and black?
+    div{
+        border: 1px dotted black;
+    }
+
     29. How do I select everything on the page? 
+    Command + A 
+
     30. How do I write a comment in CSS?
+    /* Leave a comment */
+
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+    rm. We need to be careful because it will be permantely removed.
+
     34. Why should I use version control? 
+    We can save multiple versions od documents as we make changes.
+
     35. How often should I commit to github?
+    Every time I make a change, or every 15/20 minutes.
+
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch-name
+
     37. Walk me through Lambda's git flow. 
+    Clone, create a branch, make a change, add, commit, push.
 
 Stretch Questions
 
