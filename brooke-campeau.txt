@@ -19,14 +19,13 @@ Completed codepen: https://codepen.io/brookecampeau/pen/JjYPjBM?editors=1100
     Specific information about the webpage - title of the documnet, scripts or links to scripts, and CSS files.
 
     7. What is an id? 
-
+    A unique ID for an HTML element.
 
     8. What elements can I add an id to? 
-
+    Important/unique elements
 
     9. How many times can I use the same id on a page? 
-    Just once. An ID 
-
+    Just once. 
 
     10. What is a class? 
     A group of elements that are the same or similar.
@@ -48,8 +47,8 @@ Completed codepen: https://codepen.io/brookecampeau/pen/JjYPjBM?editors=1100
 
     }
 
-    16. What is the difference between a section and a div
-
+    16. What is the difference between a section and a div?
+    Section defines a seperation between headers, footers, paragraphs, etc. and the information inside is grouped;whereas, a div gives no specific meaning.
 
     17. What is CSS used for? 
     Cascading Style Sheets
@@ -63,16 +62,22 @@ Completed codepen: https://codepen.io/brookecampeau/pen/JjYPjBM?editors=1100
     A class is used to identify more than one item; whereas, and id only identifies one. Example: <h1 id="example"> would only select h1. <p class="example"> can be placed on multiple paragraphs. 
 
     20. How do we select classes in CSS?
+    .class{
 
+    }
 
     21. How do we select a p element with a single class of “human””?
+    p.human{
 
+    }
 
     22. What is a parent child selector? When would this be useful? 
-
+    A child selector is used to match all elements of a specific parent element. It is useful when we want all of the child selectors styled the same way.
 
     23. How do you select all links within a div with the class of sidebar?
+    links .sidebar{
 
+}
 
     24. What is a pseudo selector?
     Selects elements that are in a specifi state, the first element of their type.
@@ -92,7 +97,9 @@ Completed codepen: https://codepen.io/brookecampeau/pen/JjYPjBM?editors=1100
     }
 
     29. How do I select everything on the page? 
-    Command + A 
+    *{
+
+    }
 
     30. How do I write a comment in CSS?
     /* Leave a comment */
@@ -121,7 +128,14 @@ Completed codepen: https://codepen.io/brookecampeau/pen/JjYPjBM?editors=1100
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    An inline element only takes up as much space as neccessary; whereas, a block element always starts on a new line and takes up full width.
+
     2. What happens when an element is positioned absolutely? 
+    When an element is fixed or absolute. 
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    margin and padding
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
